@@ -1,5 +1,6 @@
 <?php
 
+
 if ($msg == "/start") {
 	$menu[] = array(
 		array(
@@ -27,3 +28,4 @@ if ($msg == "minecraft") {
 		sm($chatID, "💥<b>$nomeserver</b>💥\n\nStatus Server: <b>OFFLINE</b> ❌");
 	}
 }
+
