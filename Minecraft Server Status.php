@@ -1,5 +1,6 @@
 <?php
 
+
 if ($msg == "/start") {
 	$menu[] = array(
 		array(
