@@ -14,7 +14,7 @@ if ($msg == "/start") {
 $ipserver = "mc.hypixel.net"; //Metti l'ip del vostro server anche numerico! Se avete server non nella porta 25565 scrivete ipserver:PORTA
 
 if ($msg == "minecraft") {
-	sm($chatID, "Perfetto, sto prendendo le informazioni del nostro server!!");
+	sm($chatID, "Perfetto, sto recuperando le informazioni del server.");
 	$server = file_get_contents("https://mcapi.ca/query/$ipserver/info");
 	$server = json_decode($server, 1);
 	$giocatori = $server['players']['online'];
