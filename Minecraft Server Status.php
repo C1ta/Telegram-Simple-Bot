@@ -28,4 +28,3 @@ if ($msg == "minecraft") {
 		sm($chatID, "💥<b>$nomeserver</b>💥\n\nStatus Server: <b>OFFLINE</b> ❌");
 	}
 }
-
